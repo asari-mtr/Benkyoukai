@@ -10,4 +10,6 @@
 
 @interface Cipher : NSObject
 
+(NSString) encode(NSString s);
+
 @end

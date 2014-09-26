@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE97A9DE18F6920C00840555 /* Cipher.m in Sources */ = {isa = PBXBuildFile; fileRef = FE97A9DD18F6920C00840555 /* Cipher.m */; };
 		FEB33B291851E90C00BE77ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB33B281851E90C00BE77ED /* Foundation.framework */; };
 		FEB33B2C1851E90C00BE77ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB33B2B1851E90C00BE77ED /* main.m */; };
 		FEB33B301851E90C00BE77ED /* Benkyoukai.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FEB33B2F1851E90C00BE77ED /* Benkyoukai.1 */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FE97A9DC18F6920C00840555 /* Cipher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cipher.h; sourceTree = "<group>"; };
+		FE97A9DD18F6920C00840555 /* Cipher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cipher.m; sourceTree = "<group>"; };
 		FEB33B251851E90C00BE77ED /* Benkyoukai */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Benkyoukai; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEB33B281851E90C00BE77ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FEB33B2B1851E90C00BE77ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -75,6 +78,8 @@
 			children = (
 				FEB33B2B1851E90C00BE77ED /* main.m */,
 				FEB33B2F1851E90C00BE77ED /* Benkyoukai.1 */,
+				FE97A9DC18F6920C00840555 /* Cipher.h */,
+				FE97A9DD18F6920C00840555 /* Cipher.m */,
 				FEB33B2D1851E90C00BE77ED /* Supporting Files */,
 			);
 			path = Benkyoukai;
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE97A9DE18F6920C00840555 /* Cipher.m in Sources */,
 				FEB33B2C1851E90C00BE77ED /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +257,7 @@
 				FEB33B351851E90C00BE77ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
